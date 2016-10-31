@@ -1,0 +1,7 @@
+docker run -d --security-opt="apparmor:docker-nginx-sample" -p 80:80 --name nginx nginx:1.9
+docker exec -it nginx bash
+ping 8.8.8.8
+top
+touch ~/thing
+sh
+dash
