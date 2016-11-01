@@ -1,5 +1,4 @@
 #!/bin/python2
-# Run with python 3_elastic_shell.py b2d
 # coding: utf-8
 # Author: Darren Martyn, Xiphos Research Ltd.
 # Version: 20150309.1

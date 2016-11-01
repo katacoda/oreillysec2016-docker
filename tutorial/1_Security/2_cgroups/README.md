@@ -7,8 +7,8 @@
 ## Define CPU Shares
 
 ```
-docker run -d --name c768 --cpuset-cpus 0 --cpu-shares 768 benhall/cpu-stress
-docker run -d --name c256 --cpuset-cpus 0 --cpu-shares 256 benhall/cpu-stress
+docker run -d --name c768 --cpuset-cpus 0 --cpu-shares 768 benhall/stress
+docker run -d --name c256 --cpuset-cpus 0 --cpu-shares 256 benhall/stress
 docker stats --no-stream
 docker rm -f c768 c256
 ```
